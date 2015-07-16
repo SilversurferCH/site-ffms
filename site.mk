@@ -24,7 +24,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	haveged \
 	iptables \
-	iwinfo
+	iwinfo \
+	offlinessid
 	 
 
 GLUON_PRIORITY ?= 3
