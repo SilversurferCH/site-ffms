@@ -3,6 +3,6 @@ GLUON_SITE_FEEDS='ffpb offlinessid'
 PACKAGES_FFPB_REPO=http://git.c3pb.de/freifunk-pb/ffpb-packages.git
 PACKAGES_FFPB_COMMIT=2b92e12de39cf0bbc6726e81ab84144177adca3d
 
-PACKAGES_OFFLINESSID_REPO=https://github.com/FF-NRW/offline-ssid.git
-PACKAGES_OFFLINESSID_COMMIT=baca86ef2c9cfe198d0db18012903129076880d0
+PACKAGES_OFFLINESSID_REPO=https://github.com/MPW1412/offline-ssid.git
+PACKAGES_OFFLINESSID_COMMIT=e9dfb1587ad5dde61125237edb1aafed7024874f
 PACKAGES_OFFLINESSID_BRANCH=batman-adv-legacy
