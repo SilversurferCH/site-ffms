@@ -1,4 +1,34 @@
-GLUON_SITE_FEEDS='ffpb'
+# This file allows specifying additional repositories to use
+# when building gluon.
+#
+# In most cases, it is not required so don't add it.
 
-PACKAGES_FFPB_REPO=http://git.c3pb.de/freifunk-pb/ffho-packages.git
-PACKAGES_FFPB_COMMIT=2b92e12de39cf0bbc6726e81ab84144177adca3d
+##	GLUON_SITE_FEEDS
+#		for each feed name given, add the corresponding PACKAGES_* lines
+#		documented below
+#GLUON_SITE_FEEDS='my_own_packages'
+
+##	PACKAGES_$feedname_REPO
+#		the  git repository from where to clone the package feed
+#PACKAGES_MY_OWN_PACKAGES_REPO=https://github.com/.../my-own-packages.git
+
+
+##	PACKAGES_$feedname_COMMIT
+#		the version/commit of the git repository to clone
+#PACKAGES_MY_OWN_PACKAGES_COMMIT=123456789aabcda1a69b04278e4d38f2a3f57e49
+
+##  PACKAGES_$feedname_BRANCH
+#   the branch to check out
+#PACKAGES_MY_OWN_PACKAGES_BRANCH=my_branch
+
+#GLUON_SITE_FEEDS='ffpb'
+
+#PACKAGES_FFPB_REPO=http://git.c3pb.de/freifunk-pb/ffpb-packages.git
+#PACKAGES_FFPB_COMMIT=2b92e12de39cf0bbc6726e81ab84144177adca3d
+
+GLUON_SITE_FEEDS='ffrl'
+
+PACKAGES_FFRL_REPO=https://github.com/ffrl/ffrl-packages.git
+PACKAGES_FFRL_COMMIT=0a8b47f6dbc175e61eb40a9a22b628a412b61599
+
+
